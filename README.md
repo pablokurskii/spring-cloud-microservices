@@ -10,6 +10,7 @@ start AccountApplication
 start BillApplication
 
 Eureka discovery available on http://localhost:8761/ 
+RabbitMQ http://localhost:15672/ 
 
 REST Test queries
 POST http://localhost:8082/bills/
