@@ -9,8 +9,6 @@ X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 K
 config-service/build.gradle,8\9\897bbd6396225a219326c38f922b61d623bbf902
-{
-Kdeposit-service/src/main/java/com/javastart/deposit/DepositApplication.java,4\f\4f6a47c6eac91fea17f0163689baacbb7b1de9ba
 L
 deposit-service/build.gradle,b\a\ba55278185be049c1815cdc137da9cd4c18c5ca5
 D

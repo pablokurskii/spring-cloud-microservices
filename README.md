@@ -13,6 +13,13 @@ Eureka discovery available on http://localhost:8761/
 RabbitMQ http://localhost:15672/ 
 
 REST Test queries
+
+With Gateway Eureka
+POST http://localhost:8989/accounts/
+POST http://localhost:8989/bills/
+POST http://localhost:8989/deposits/
+
+With opened network
 POST http://localhost:8082/bills/
 
 Request
@@ -46,4 +53,22 @@ Response
 
 ```
 1
+```
+
+POST http://localhost:8989/deposits/
+
+Request
+```
+{
+    "billId": 1,
+    "amount": 3000
+}
+```
+Response
+
+```
+{
+    "amount": 3000,
+    "mail": "baxter@gmail.com"
+}
 ```

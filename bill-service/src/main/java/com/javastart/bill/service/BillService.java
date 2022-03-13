@@ -39,4 +39,8 @@ public class BillService {
         billRepository.deleteById(billId);
         return deletedBill;
     }
+
+    public List<Bill> getBillsByAccountId(Long accountId){
+        return billRepository.getBillsByAccountId(accountId);
+    }
 }
