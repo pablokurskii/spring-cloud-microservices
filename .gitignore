@@ -47,3 +47,4 @@ gateway/.gradle
 
 registry/build
 registry/.gradle
+*.lock

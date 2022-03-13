@@ -17,7 +17,7 @@ public class AccountResponseDTO {
     private List<Long> bills;
     private OffsetDateTime creationDate;
 
-    public AccountResponseDTO(Account account){
+    public AccountResponseDTO(Account account) {
         accountId = account.getAccountId();
         name = account.getName();
         email = account.getEmail();

@@ -29,4 +29,12 @@ public class Account {
         this.creationDate = creationDate;
         this.bills = bills;
     }
+
+    public Account(Long accountId, String name, String phone, String email, List<Long> bills) {
+        this.accountId = accountId;
+        this.name = name;
+        this.phone = phone;
+        this.email = email;
+        this.bills = bills;
+    }
 }
